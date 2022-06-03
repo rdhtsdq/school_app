@@ -6,8 +6,8 @@ const Header = () => {
         <div className="grid grid-cols-12 mt-5 mb-10 justify-center">
             {/* image */}
             <div className="col-span-6 flex flex-col mx-auto py-10">
-                <span className="text-5xl font-medium mb-16">Hello World!</span>
-                <img src={hello} className="w-[500px] h-[200px]" />
+                <span className="text-5xl font-semibold mb-16">Hello World!</span>
+                <img src={hello} className="w-[300px] h-1/2" />
             </div>
             {/* image */}
 
